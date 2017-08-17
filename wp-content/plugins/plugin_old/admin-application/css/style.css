@@ -1,0 +1,853 @@
+#dashboard{
+	background: #f4f4f8;
+	width: 1060px;
+	padding: 32px 0;
+	color:#34495e;
+	overflow: hidden;
+	height:auto;
+}
+#dashboard h2.title{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 0px 0 32px 0;
+	margin: 0;
+	float: left;
+}
+
+/*=======================Down List Admin=================================*/
+#dashboard .list_exhibitor_accept{
+	width: 1060px;
+}
+#dashboard .list_exhibitor_accept p.row{
+	display: table;
+	width: 100%;
+	padding:20px 0px;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #abb7d7;
+	margin:0;
+}
+#dashboard .list_exhibitor_accept span.col{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 14px;
+}
+#dashboard .list_exhibitor_accept span.company{
+	width:320px;
+	text-align: left;
+	text-indent: 15px;
+}
+#dashboard .list_exhibitor_accept span.number_booth{
+	width:100px;
+	text-align: left;
+}
+#dashboard .list_exhibitor_accept span.option{
+	text-align: center;
+}
+#dashboard .list_exhibitor_accept span.detail{
+	width:130px;
+	text-align: center;
+	cursor: pointer;
+	padding:10px 0;
+}
+#dashboard .list_exhibitor_accept span.detail a{
+	text-decoration: none;
+	color: #34495e;
+	padding:10px 26px;
+}
+#dashboard .list_exhibitor_accept span.detail i{
+	margin-right: 7px;
+}
+#dashboard .list_exhibitor_accept span.detail a:hover{
+	background:#d7dceb;
+	border-radius: 5px;
+}
+
+#dashboard .list_exhibitor_accept p.row.top{
+	border-top:0px;
+	padding:0 0;
+	height:2px;
+}
+#dashboard .list_exhibitor_accept p.row.bottom{
+	border-bottom:0px;
+	padding:0 0;
+	height:2px;
+}
+#dashboard .list_exhibitor_accept h2{
+	width: 300px;
+	float:left;
+}
+#dashboard .pagination{
+	float: right;
+	width: 700px;
+	text-align: right;
+	margin-bottom: 10px;
+}
+#dashboard .pagination a{
+	width: 30px;
+	line-height: 30px;
+	border: 1px solid #dee1e2;
+	background:#fff;
+	font-size: 14px;
+	margin-left:8px;
+	display:inline-block;
+	text-align: center;
+	color:#000;
+	text-decoration: none;
+}
+#dashboard .pagination span.current{
+	width: 30px;
+	line-height: 30px;
+	border: 1px solid #dee1e2;
+	background:#3e6cbf;
+	font-size: 14px;
+	margin-left:8px;
+	display:inline-block;
+	text-align: center;
+	color:#fff;
+	text-decoration: none;
+}
+#dashboard .pagination a:hover{
+	background:#3e6cbf;
+	color:#fff;
+}
+.download_btn,
+.download_btn_excel1,.download_btn_excel4{
+	width: 250px;
+	line-height: 48px;
+	margin:90px 0 0 15px;
+	background:#3e6cbf;
+	border-radius: 5px;
+	font-size: 16px;
+	color:#fff;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	border: 0;
+	display: table-cell;
+}
+.download_btn:hover,
+.download_btn_excel:hover,..download_btn_excel4:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+#dashboard .list_exhibitor_accept table{
+	width: 100%;
+}
+#dashboard .list_exhibitor_accept table tr:first-child{
+	border-top: 1px solid #abb7d7;
+}
+#dashboard .list_exhibitor_accept table tr{
+	/*padding: 20px 0;*/
+	display: block;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #abb7d7;
+}
+#dashboard .list_exhibitor_accept table tr td.company{
+	width: 320px;
+	text-align: left;
+    text-indent: 15px;
+}
+#dashboard .list_exhibitor_accept table tr td.number_booth{
+	width: 100px;
+	text-align: left;
+}
+#dashboard .list_exhibitor_accept table tr td.option{
+	width: 510px;
+	text-align: center;
+}
+#dashboard .list_exhibitor_accept table tr td.detail{
+	width:130px;
+	text-align: center;
+	cursor: pointer;
+	padding:10px 0;
+}
+#dashboard .list_exhibitor_accept table tr td.detail a{
+	text-decoration: none;
+	color: #34495e;
+	padding:10px 0;
+	width: 130px;
+	display: block;
+}
+#dashboard .list_exhibitor_accept table tr td.detail i{
+	margin-right: 7px;
+}
+#dashboard .list_exhibitor_accept table tr td.detail a:hover{
+	background:#d7dceb;
+	border-radius: 5px;
+}
+#dashboard .list_exhibitor_accept .down_box{
+	margin-left: -15px;
+}
+/*=============== Item Detail ==================*/
+#dashboard .exhibitor_detail h2 span.company_name{
+	margin-right: 30px;
+}
+#dashboard .exhibitor_detail .info_company{
+	width: 100%;
+	overflow: hidden;
+	margin:0 auto;
+}
+#dashboard .exhibitor_detail .info_company .input_form{
+	display: table;
+	width: 100%;
+	max-width: 1058px;
+	border-top:1px solid #dee1e2;
+	border-left:1px solid #dee1e2;
+	border-right:1px solid #dee1e2;
+	border-bottom:1px solid #fff;
+	overflow: hidden;
+	background:#fff;
+}
+#dashboard .exhibitor_detail .info_company .input_form:last-child{
+	border-bottom: 2px solid #dee1e2;
+}
+#dashboard .exhibitor_detail .info_company .input_form label{
+	display: table-cell;
+	vertical-align: middle;
+	/*display: block;*/
+	width: 160px;
+	padding:20px 0px;
+	text-indent: 10px;
+	font-size: 14px;
+	background:#f5f6f6;
+	/*float:left;*/
+}
+#dashboard .exhibitor_detail .info_company .input_form .input{
+	display: table-cell;
+	vertical-align: middle;
+	/*float:left;*/
+	width: 898px;
+	text-indent: 47px;
+}
+#dashboard .exhibitor_detail .info_company .input_form .group_name span{
+	margin:0 15px;
+}
+#dashboard .exhibitor_detail .info_company .input_form .group_name span:first-child{
+	margin-left: 0px;
+}
+#dashboard .exhibitor_detail .info_company .input_form .input input:focus, #dashboard .exhibitor_detail .input_form .input input:hover{
+	border:2px solid #3e6cbf;
+	background-color:#faffbd;
+	height:28px;
+}
+#dashboard .exhibitor_detail .input_form .input select:focus,#dashboard .exhibitor_detail .input_form .input select:hover{
+	border:2px solid #3e6cbf !important;
+	background-color:#faffbd !important;
+	height:28px !important;
+}
+#dashboard .exhibitor_detail .info_company .col4 .input1{
+	width: 383px;
+}
+#dashboard .exhibitor_detail .info_company .col4 .input2{
+	width: 355px;
+}
+#dashboard .exhibitor_detail .info_company .input_form label.label2{
+	text-indent: 20px;
+}
+#dashboard .exhibitor_detail .info_company .col4 .input2 select{
+	border:1px solid #dee1e2;
+	border-radius: 3px;
+	height:30px;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:url("../images/icon_select.png") no-repeat 95% center;
+    text-indent:10px;
+}
+#dashboard .exhibitor_detail .info_company .input_form span.note{
+	font-size: 12px;
+	margin-left: 15px;
+}
+#dashboard .exhibitor_detail .button{
+	width: 665px;
+	margin: 125px auto 0px;
+	overflow: hidden;
+	padding-bottom: 75px;
+	padding-left:5px;
+	padding-right: 5px;
+	display: block;
+	border: 0;
+	background: transparent;
+}
+#dashboard .exhibitor_detail .button_detail a{
+	text-decoration: none;
+}
+#dashboard .exhibitor_detail .button_detail{
+	width: 665px;
+	margin: 125px auto 0px;
+	overflow: hidden;
+	padding-bottom: 75px;
+	padding-left:5px;
+	padding-right: 5px;
+	display: block;
+	border: 0;
+	background: transparent;
+}
+#dashboard .exhibitor_detail .button_detail .refuse_btn{
+	width: 250px;
+	line-height: 48px;
+	background: #586470;
+	font-size: 16px;
+	text-align: center;
+	color:#fff;
+	float: left;
+	border-radius: 5px;
+}
+#dashboard .exhibitor_detail .button_detail .accept_btn{
+	width: 250px;
+	line-height: 48px;
+	background: #3e6cbf;
+	font-size: 16px;
+	text-align: center;
+	color:#fff;
+	float:right;
+	border-radius: 5px;
+}
+#dashboard .exhibitor_detail .button_detail .refuse_btn:hover, #dashboard .exhibitor_detail .button_detail .accept_btn:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+#dashboard .exhibitor_detail .exhibition_location{
+	width: 1060px;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location{
+	width: 1058px;
+	border:1px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+	color:#34495e;
+	font-size: 12px;
+	margin-top:45px;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .cell{
+	display: table-cell;
+	vertical-align: middle;
+	background:#fff;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .head{
+	width: 305px;
+	background:#f5f6f6;
+	text-indent: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .col1{
+	width: 315px;
+	text-indent: 120px;
+	font-size: 14px;
+	color: #34495e;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .row{
+	display: table;
+	padding:25px 0px;
+	width: 753px;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .row.total{
+	border-top:1px solid #e5e5e5;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .row .col{
+	display: table-cell;
+	vertical-align: middle;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .txt_bold{
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin-top: 10px;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .small{
+	font-size: 10px;
+	font-weight: normal;
+	color:#000;
+	margin-left: 10px;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .txt_red,#dashboard .exhibitor_detail .exhibition_location .block_location .total{
+	font-size: 24px;
+	font-weight: bold;
+	color:#e74c3c;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .txt_red_small{
+	font-size: 16px;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location span.number_booth{
+	width: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right:10px;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .col2{
+	width: 100px;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .col3{
+	/*width: 300px;*/
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location span.price{
+	font-size: 14px;
+	font-weight: bold;
+	margin-right:10px;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location span.total{
+	font-size: 24px;
+	font-weight: bold;
+	color: #e74c3c;
+	margin-right:10px;
+}
+#dashboard .exhibitor_detail .exhibition_location .block_location .total .col2{
+	width:290px;
+}
+#dashboard .exhibitor_detail .address_payment{
+	width: 1058px;
+	margin-top:45px;
+	display: table;
+	border: 1px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+}
+#dashboard .exhibitor_detail .address_payment div.col{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 14px;
+	text-indent: 120px;
+	padding:35px 0;
+	background:#fff;
+}
+#dashboard .exhibitor_detail .address_payment div.col1{
+	width: 305px;
+	text-indent: 10px;
+	background:#f5f6f6;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#dashboard .exhibitor_detail .address_payment div.col p:first-child{
+	margin-bottom: 45px;
+}
+
+/*========================== List Amenity Goods Admin =================================*/
+#dashboard .list_goods h2.title{
+	font-size: 24px;
+	color:#34495e;
+	margin-bottom: 35px;
+	width:300px;
+	float:left;
+}
+#dashboard .list_goods .new_goods{
+    width:130px;
+    float: right;
+}
+#dashboard .list_goods .new_goods a.add_new{
+    display: block;
+    width:128px;
+    line-height: 40px;
+    background:#3e6cbf;
+    border:0;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align:center;
+    font-size:16px;
+    color:#fff;
+}
+#dashboard .list_goods .new_goods a.add_new:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    transition: all 0.2s ease-out;
+}
+#dashboard .list_goods{
+	width: 100%;
+	max-width: 1060px;
+}
+#dashboard .list_goods table{
+	width: 100%;
+	max-width: 1060px;
+	border-spacing:0.5px;
+}
+#dashboard .list_goods table thead tr td{
+	background:#f5f6f6;
+	height:55px;
+	text-indent: 25px;
+	border-left:1px solid #fff;
+	border-top:1px solid #dee1e2;
+	border-right:1px solid #dee1e2;
+	border-bottom:1px solid #fff;
+	font-size:14px;
+	color:#34495e;
+}
+#dashboard .list_goods table thead tr td:first-child, #dashboard .list_goods table tbody tr td:first-child{
+    width:50px;
+	border-left:1px solid #dee1e2;
+	border-top:1px solid #dee1e2;
+	border-right:1px solid #dee1e2;
+	border-bottom:1px solid #fff;
+	text-align:center;
+	text-indent: 0;
+}
+#dashboard .list_goods table tbody tr td{
+	text-indent: 25px;
+	height:55px;
+	background:#fff;
+	border-left:1px solid #fff;
+	border-top:1px solid #dee1e2;
+	border-right:1px solid #dee1e2;
+	border-bottom:0px solid #dee1e2;
+	font-size:14px;
+	color:#34495e;
+}
+#dashboard .list_goods table tbody tr td.icon_action{
+    width:115x;
+    text-indent: 0;
+    text-align:center;
+}
+#dashboard .list_goods table tbody tr td.icon_action:last-child i{
+	margin-right:0;
+}
+#dashboard .list_goods table tbody tr td.icon_action a{
+    display: block;
+    width:64px;
+    margin:0 auto;
+    border-radius: 5px;
+    line-height:32px;
+    font-size:14px;
+	color:#34495e;
+	text-align:center;
+    text-decoration: none;
+}
+#dashboard .list_goods table tbody tr td.icon_action a:hover{
+    background:#dde2ef;
+    transition:all 0.2s ease-out;
+}
+#dashboard .list_goods table tbody tr td.icon_action i{
+    margin-right:10px;
+}
+#dashboard .list_goods table tbody tr:last-child td{
+    border-bottom:1px solid #dee1e2;
+}
+#dashboard .list_goods table tbody tr td p{
+    margin:0;
+    padding:0;
+    line-height: 25px;
+}
+#dashboard .list_goods table tbody tr td p+p{
+    border-top:1px solid #dee1e2;
+}
+/*================== Register Amenity Goods =========================*/
+#dashboard .register_amenity_goods h2.title{
+    font-size: 24px;
+    color:#34495e;
+    margin-bottom: 35px;
+}
+#dashboard .register_amenity_goods form{
+    width: 1060px;
+    overflow: hidden;
+}
+#dashboard .register_amenity_goods form .input_form{
+    display: table;
+    max-width: 1058px;
+    border-top:1px solid #dee1e2;
+    border-left:1px solid #dee1e2;
+    border-right:1px solid #dee1e2;
+    border-bottom:1px solid #fff;
+    overflow: hidden;
+    background:#fff;
+}
+#dashboard .register_amenity_goods form .input_form input, #dashboard .register_amenity_goods form .input_form textarea{
+    border:1px solid #dee1e2;
+    border-radius: 3px;
+    height:30px;
+    text-indent: 10px;
+    font-size: 15px;
+    color:#34495e;
+    box-shadow:none;
+}
+#dashboard .register_amenity_goods form .input_form .input span{
+    font-size: 12px;
+    margin-left:10px;
+}
+#dashboard .register_amenity_goods form .input_form input[name="item_number"]{
+    width: 150px;
+}
+#dashboard .register_amenity_goods form .input_form input[name="item_name"]{
+    width: 395px;
+}
+#dashboard .register_amenity_goods form .input_form textarea[name="specification"]{
+    width: 395px;
+}
+#dashboard .register_amenity_goods form .input_form input[name="rental_price"]{
+    width:150px;
+}
+#dashboard .register_amenity_goods form .input_form.bottom{
+    border-bottom: 2px solid #dee1e2;
+}
+#dashboard .register_amenity_goods form .input_form label{
+    display: table-cell;
+    vertical-align: middle;
+    width: 190px;
+    padding:20px 0px;
+    text-indent: 20px;
+    font-size: 14px;
+    background:#f5f6f6;
+
+}
+#dashboard .register_amenity_goods form .input_form .input{
+    display: table-cell;
+    vertical-align: middle;
+    /*float:left;*/
+    width: 868px;
+    text-indent: 47px;
+}
+#dashboard .register_amenity_goods form .button_group .registration{
+    width: 250px;
+    height: 48px;
+    display: block;
+    margin:90px auto;
+    background:#3e6cbf;
+    border-radius: 5px;
+    clear: both;
+    font-size: 16px;
+    color:#fff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    border:none;
+}
+#dashboard .register_amenity_goods form .button_group .registration:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    transition: all 0.2s ease-out;
+}
+/****************************/
+#dashboard .register_amenity_goods form .input_form .input label{
+    display: block;
+    padding: 0;
+    line-height: 30px;
+    position: relative;
+    background:#fff;
+}
+#dashboard .register_amenity_goods form .input_form .input .inputfile + label{
+    width: 385px;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    height:30px;
+    font-size:14px;
+}
+#dashboard .register_amenity_goods form .input_form .input .no-js .inputfile + label{
+    display: none;
+}
+
+#dashboard .register_amenity_goods form .input_form .input .inputfile:focus + label,
+#dashboard .register_amenity_goods form .input_form .input .inputfile.has-focus + label{
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+#dashboard .register_amenity_goods form .input_form .input .inputfile{
+    display: none;
+}
+#dashboard .register_amenity_goods form .input_form .input .inputfile + label{
+    color: #34495e;
+    font-size:14px;
+}
+
+#dashboard .register_amenity_goods form .input_form .input .inputfile + label{
+    border: 1px solid #dee1e2;
+    background-color: #fff;
+    padding: 0;
+    border-radius: 3px;
+}
+#dashboard .register_amenity_goods form .input_form .input .inputfile + label span{ /** Break word when name file is too long**/
+    width: 200px;
+    min-height: 2em;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+#dashboard .register_amenity_goods form .input_form .input .inputfile + label strong{
+    height: 100%;
+    color: #fff;
+    background-color: #3e6cbf;
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 110px;
+    right: 0;
+    font-size:12px;
+    text-indent: 0;
+    text-align: center;
+}
+#dashboard .register_amenity_goods form .input_form .input.group_publish label{
+    float:left;
+    text-indent: 47px;
+}
+#dashboard .register_amenity_goods form .input_form .input input[type="radio"]{
+    display:none;
+}
+#dashboard .register_amenity_goods form .input_form .input label input[type="radio"] + span{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    margin:0px 20px 0 0;
+    vertical-align:middle;
+    background: #fff;
+    cursor:pointer;
+    border:1px solid #dee1e2;
+    border-radius: 3px;
+}
+#dashboard .register_amenity_goods form .input_form .input label input[type="radio"]:checked + span{
+    background:url("../images/radio.png") no-repeat center;
+    border:2px solid #3e6cbf;
+    width: 10px;
+    height:10px;
+}
+
+#dashboard .register_amenity_goods form .input_form .input input[type="radio"] + label span{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    margin:-5px 10px 0 0;
+    vertical-align:middle;
+    background: #fff;
+    cursor:pointer;
+    border:1px solid #dee1e2;
+    border-radius: 50px;
+    font-size: 14px;
+}
+#dashboard .register_amenity_goods form .input_form .input input[type="radio"]:checked + label span{
+    background:url("../images/radio.png") no-repeat center;
+    border:2px solid #3e6cbf;
+    width: 10px;
+    height:10px;
+}
+#dashboard .register_amenity_goods form hr{
+    padding:0;
+    margin:0;
+}
+#dashboard .register_amenity_goods form .input_form .input p{
+	margin: 5px 0;
+}
+#dashboard .register_amenity_goods form .input_form .input p input.input_image{
+	width: 395px;
+}
+#dashboard .register_amenity_goods form .input_form .input p span#upload_button{
+	margin:0px 0 0 47px;
+    color: #fff;
+    background-color: #3e6cbf;
+    font-size: 12px;
+    font-weight: bold;
+    text-indent: 0;
+    text-align: center;
+    padding: 8px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 395px;
+    display: block;
+}
+[data-role="dynamic-fields"] > .form-inline + .form-inline {margin-top: 0.5em;}
+[data-role="dynamic-fields"] > .form-inline [data-role="add"] {display: none;}
+[data-role="dynamic-fields"] > .form-inline:last-child [data-role="add"] {display: inline-block;}
+[data-role="dynamic-fields"] > .form-inline:last-child [data-role="remove"] {display: none;}
+[data-role="dynamic-fields"] > .form-inline input{
+    width:195px;
+}
+[data-role="dynamic-fields"] > .form-inline button.themzo,
+[data-role="dynamic-fields"] > .form-inline button.bodi{
+    height:26px;
+    line-height: 26px;
+    width: 26px;
+    border:1px;
+    background: #3e6cbf;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+[data-role="dynamic-fields"] > .form-inline button.themzo:hover,
+[data-role="dynamic-fields"] > .form-inline button.bodi:hover{
+    background: #FFF;
+}
+[data-role="dynamic-fields"] > .form-inline button.themzo:hover i,
+[data-role="dynamic-fields"] > .form-inline button.bodi:hover i{
+    color: #3e6cbf;
+}
+[data-role="dynamic-fields"] > .form-inline button.themzo i,
+[data-role="dynamic-fields"] > .form-inline button.bodi{
+    font-size: 16px;
+}
+[data-role="dynamic-fields"] > .form-inline select{
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: bottom !important;
+    width: 100px;
+    border-radius: 3px;
+}
+[data-role="dynamic-fields"] > .form-inline span{
+    margin-left: 20px !important;
+}
+[data-role="dynamic-fields"] > .form-inline input.add_radio{
+    display: inline-block !important;
+    width: 17px;
+    height: 17px !important;
+    border-radius: 50% !important;
+}
+[data-role="dynamic-fields"] > .form-inline input.add_radio:checked{
+    border:2px solid #1e8cbe !important;
+}
+[data-role="dynamic-fields"] > .form-inline input.add_radio:checked:before{
+    content: "\2022";
+    text-indent: -9999px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-size: 24px;
+    width: 7px;
+    height: 7px;
+    margin: 3px;
+    line-height: 16px;
+    background-color: #1e8cbe;
+}
+/**** Dealine  Application     ***/
+#dashboard #setup_dealine{
+	display: table;
+	width:700px;
+	margin: 80px auto 0 50px;
+}
+#dashboard #setup_dealine div.row p{
+	display: table-cell;
+	vertical-align: middle;
+	padding:10px 0px;
+}
+#dashboard #setup_dealine div.row p.name_row{
+	width:250px;
+	font-size:16px;
+}
+#dashboard #setup_dealine div.row p input{
+	width:300px;
+	/*height:40px;*/
+	border:2px solid #dee1e2;
+	box-shadow: none;
+	padding: 8px 0px 8px 10px;
+}
+#dashboard #setup_dealine div.row p:last-child{
+	text-indent: 50px;
+}
+#dashboard #setup_dealine .confirm{
+	display: block;
+    width: 200px;
+    margin:70px auto 0;
+    line-height: 48px;
+    background: #3e6cbf;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+
+}
+#dashboard #setup_dealine .confirm:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+.select_applocation{
+	float:right;
+}

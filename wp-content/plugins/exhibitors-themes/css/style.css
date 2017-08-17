@@ -1,0 +1,373 @@
+#dashboard{
+	/*background: #f4f4f8;*/
+	width: 100%;
+	padding:0;
+	color:#34495e;
+	overflow: hidden;
+	height:auto;
+}
+#dashboard h2.title{
+	font-size: 24px;
+	color:#34495e;
+	margin:0 0 35px;
+}
+
+footer{
+	width: 1060px;
+	font-size:10px;
+	color:#abb7d7;
+	text-align: right;
+	position: relative;
+	bottom: 0px;
+	padding:20px 0;
+	clear:both;
+}
+#dashboard .colleft{
+	width:520px;
+	margin-right:65px;
+	float:left;
+}
+#dashboard .colright{
+	width:520px;
+	float:left;
+}
+#dashboard .news{
+	
+}
+#dashboard .news h1{
+	font-size:18px;
+	font-weight: bold;
+	color:#34495e;
+	background:#f0f0f0;
+	border-bottom:8px solid #8ca7d3;
+	line-height: 32px;
+	text-indent:10px;
+}
+#dashboard .news p{
+	display: table;
+	width:100%;
+}
+#dashboard .news p span,#dashboard .news p span a{
+	display: table-cell;
+	vertical-align: middle;
+	font-size:12px;
+	color:#34495e;
+	text-decoration: none;
+}
+#dashboard .news p span a:hover{
+	color:#3e6cbf;
+}
+#dashboard .news p span.date_post{
+	width: 70px;
+	text-indent:10px;
+}
+#dashboard .control_btn{
+	
+}
+#dashboard .control_btn p{
+	display: table;
+	width: 100%;
+}
+#dashboard .control_btn p span.btn,#dashboard .control_btn p span.notice_dealine{
+	display: table-cell;
+	vertical-align: middle;
+}
+#dashboard .control_btn p span.btn{
+	width:300px;
+}
+#dashboard .control_btn p span.btn a{
+	display: block;
+	width: 290px;
+	line-height: 55px;
+	font-size:16px;
+	font-weight: bold;
+	color:#fff;
+	border:2px solid #3e6cbf;
+	background:#3e6cbf;
+	text-align:left;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top:15px;
+}
+#dashboard .control_btn p span.btn a img{
+	position: relative;
+    top: 9px;
+    margin-left: 15px;
+    margin-right:25px;
+}
+#dashboard .control_btn p span.btn a:hover,#dashboard .colleft .group_download a:hover{
+	cursor: pointer;
+}
+#dashboard .control_btn p span.notice_dealine{
+	font-size:16px;
+	color:#e74c3c;
+	padding-top:15px;
+}
+#dashboard .control_btn p span.notice_dealine .date{
+	font-size:24px;
+}
+#dashboard .control_btn p span.expires a,#dashboard .control_btn p span.expires a:hover{
+	color:#f0f0f0;
+	border:#f0f0f0;
+	border:2px solid #f0f0f0;
+	background:#fff;
+	cursor: not-allowed;
+	box-shadow: none !important;
+	transition: none !important;
+}
+#dashboard .colleft .group_download{
+	margin-top:100px;
+}
+#dashboard .colleft .group_download a{
+	display: block;
+	width:290px;
+	line-height: 55px;
+	margin-bottom: 15px;
+	border:2px solid #3e6cbf;
+	color:#3e6cbf;
+	font-size:16px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align:center;
+	background:#fff;
+	border-radius:3px;
+}
+#dashboard .control_btn p span.btn a:hover{
+	/*background:#fff;*/
+	/*color:#3e6cbf;*/
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+	transition:all 0.2s ease-out;
+}
+
+#dashboard .colleft .group_download a:hover{
+	cursor: pointer;
+	background:#3e6cbf;
+	color:#fff;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+	transition:all 0.2s ease-out;
+}
+/*========================= Login Page ===============================*/
+body.login{
+	background:#fff;
+}
+body.login:before{
+	content: url(../images/logo_login_ex.jpg);
+	display: block;
+	margin: 0 auto;
+	width: 392px;
+	top: 15%;
+	position: relative;
+}
+body.login div#login{
+	background: #FFF;
+    position: relative;
+    padding:20px 50px;
+    top: 20%;
+    margin: auto;
+    width: 300px;
+    border: 1px solid #dee1e2;
+}
+*::-moz-placeholder{
+	color:#dee1e2 !important;
+}
+*::-webkit-placeholder{
+	color:#dee1e2 !important;
+	font-size:14px;
+	font-weight:bold;
+}
+body.login div#login h1{
+	padding: 10px 0;
+}
+body.login div#login h1 a {
+    background-image: url("../images/logo_login.png");
+    background-size:100%;
+    height: 15px;
+    width: 300px;
+    margin: 0 auto;
+}
+body.login div#login form#loginform{
+	margin-top:0px;
+	width: 300px;
+	padding: 0;
+	box-shadow:none;
+}
+body.login div#login form#loginform p{
+	line-height: 1;
+}
+body.login div#login form#loginform p label{
+	color:#34495e;
+	font-size: 14px;
+	font-family: YuGothic;
+}
+body.login div#login form#loginform p label input{
+	font-size: 14px;
+	padding: 10px 7px;
+	/*margin: 5px 0 !important;*/
+	background: none;
+	font-weight: bold;
+	color:#34495e;
+}
+body.login div#login form#loginform p.forgetmenot{
+	float: none;
+	line-height: 1.5;
+	margin-top:10px;
+	font-family: YuGothic;
+	padding-top:2px;
+}
+body.login div#login form#loginform p.submit{
+	float: none;
+	text-align: center;
+	margin:30px 0 35px;
+}
+body.login div#login form#loginform p.submit input#wp-submit{
+	width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    background: #3e6cbf;
+    float: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    box-shadow: none;
+    font-family: YuGothic;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    transition: all 0.2s ease-out;
+}
+#loginform #user_login, #loginform #user_pass{
+	width:300px;
+	height:40px;
+	border:1px solid #dee1e2;
+	background:#fff;
+	box-shadow:none;
+	outline:none;
+	display:block;
+	float:none;
+	color:#34495e;
+	font-size:14px;
+}
+#loginform #user_login{
+	margin-top: -10px !important;
+}
+.login form .input, .login input[type="text"]{
+	margin:0 0 !important;
+}
+body.login div#login p#nav{
+	margin:0;
+	padding: 0;
+}
+body.login div#login p#nav a{
+    font-size: 14px;
+    color: #3e6cbf;
+    font-family: YuGothic;
+}
+p#backtoblog{display: none;}
+body.login div#login form#lostpasswordform{
+	margin: 20px 0;
+	padding:10px;
+}
+body.login div#login form#lostpasswordform p label input{
+	font-size: 14px;
+	padding:10px 7px;
+	margin:5px 0;
+	background: none;
+}
+body.login div#login form#lostpasswordform p.submit{
+	margin: 30px auto;
+}
+body.login div#login form#lostpasswordform p.submit input#wp-submit{
+	width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    background: #3e6cbf;
+    float: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    box-shadow: none;
+    font-family: YuGothic;
+}
+body.login div#login form#lostpasswordform p.submit input#wp-submit:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    transition: all 0.2s ease-out;
+}
+p.message{
+	margin-top:-25px;
+}
+/*.login #login_error, .login .message{
+	background:#e74c3c;
+	border-left:none;
+	padding:15px 0px !important;
+	width:300px;
+	margin:15px auto 0px !important;
+	box-shadow:none;
+}*/
+
+.login #login_error{
+	background-color:#e74c3c !important;
+	border-left:none !important;
+	padding:15px 0px !important;
+	width:300px;
+	margin:15px auto 10px !important;
+	box-shadow:none !important;
+}
+.login .message{
+	border-left:none !important;
+	/*padding:15px 0px !important;*/
+	padding: 15px 0px 0px 0px !important;
+	width:300px;
+	margin:15px auto 0px !important;
+	box-shadow:none !important;
+	color:#34495e;
+}
+.login-action-login .message{
+	display: none;
+}
+.login #login_error p{
+	text-align:center;
+	font-size:14px;
+	font-family:YuGothic;
+	font-weight:500px;
+	color:#fff;
+}
+.login-action-lostpassword div#login h1{
+	display: none;
+}
+.login-action-lostpassword #lostpasswordform{
+	box-shadow: none;
+}
+.login-action-lostpassword #lostpasswordform input#user_login{
+	box-shadow: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #dee1e2;
+}
+.login-action-lostpassword #lostpasswordform input#user_login:focus{
+	border-color:#dee1e2;
+	color:#34495e;
+}
+.login-action-lostpassword #lostpasswordform p label:before{
+	content: "ユーザー名もしくはメールアドレス";
+	color:#34495e;
+	font-size:14px;
+	font-family: YuGothic;
+}
+
+
+
+
+
+
+
+
+
+
+
+

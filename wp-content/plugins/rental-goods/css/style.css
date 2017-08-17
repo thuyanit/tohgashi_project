@@ -1,0 +1,209 @@
+#dashboard{
+    width: 1000px;
+    padding: 0;
+    color: #34495e;
+    overflow: hidden;
+    height: auto;
+}
+#dashboard #rental_goods h1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #34495e;
+    background: #f0f0f0;
+    border-bottom: 8px solid #8ca7d3;
+    line-height: 32px;
+    text-indent: 10px;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    font-size:14px;
+    border-collapse: collapse;
+}
+table.parent {
+    border: 1px solid #dee1e2;
+    /*margin: 10px auto;*/
+}
+table.parent:first-of-type{
+    margin-top: 10px;
+}
+table.parent:last-of-type{
+    margin-bottom: 10px;
+}
+table.parent tr td.product_img{
+    width: 150px;
+    text-align: center;
+    border-right: 1px solid #dee1e2;
+    vertical-align: top;
+}
+table.parent tr td.product_img img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+table.parent tr td.product_name{
+    width: 200px;
+    text-align: center;
+    border-right: 1px solid #dee1e2;
+}
+table.parent tr td.specification{
+    width: 600px;
+}
+table.parent tr td.specification>table.child tr td.specification_sp{
+    width: 250px;
+    text-align:center;
+    min-width: 250px;
+}
+table.parent tr td.specification>table.child tr td.gia_sp{
+    width: 100px;
+    text-indent: 10px;
+    min-width: 100px
+}
+table.parent tr td.specification>table.child tr td.nhap_sl{
+    width: 100px;
+    text-align: center;
+}
+table.parent tr td.specification>table.child tr td.add_sp{
+    width: 200px;
+}
+#dashboard #rental_goods .content table.parent tr td.specification>table.child tr td.nhap_sl span {
+    font-size: 12px;
+}
+#dashboard #rental_goods .content table.parent tr td.specification>table.child tr td.nhap_sl input {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #dee1e2;
+    margin-top: 5px;
+    box-shadow: none;
+}
+#dashboard #rental_goods .content table.parent tr td.specification>table.child tr td.add_sp .add_product {
+    width: 120px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #3e6cbf;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+#dashboard #rental_goods .content table.parent tr td.specification>table.child tr td.add_sp .add_product:hover {
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    transition: all 0.2s ease-out;
+}
+#dashboard #rental_goods .content .add_all {
+    width: 250px;
+    height: 45px;
+    display: block;
+    margin: 80px auto 0;
+    background: #3e6cbf;
+    border: 2px solid #3e6cbf;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+#dashboard #rental_goods .content .add_all:hover{
+    background:#fff;
+    color:#3e6cbf;
+    transition:all 0.2s ease-out;
+    cursor: pointer;
+}
+tr.orders_form,
+tr.group_spec {
+    border-bottom: 1px solid #dee1e2;
+}
+tr.orders_form:last-child,
+tr.group_spec:last-child {
+    border-bottom: none;
+}
+.padding_15 {
+    padding: 10px 5px;
+}
+.confirm_info {
+    margin-bottom: 10px;
+}
+.total {
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 1.5em 0;
+}
+.total span:first-of-type {
+    padding-right: 3em;
+}
+.group_btn {
+    text-align: center;
+}
+.group_btn input {
+    display: inline-block !important;
+    width: 20% !important;
+    margin: 2em 1em !important;
+}
+/** Add by ms.thuyanit 06-06-2017  **/
+#order_list{
+    width: 100%;
+    max-width: 1060px;
+    color: #34495e;
+    margin-top:30px;
+    /*border:1px solid #dee1e2;*/
+}
+#order_list h1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #34495e;
+    background: #f0f0f0;
+    border-bottom: 8px solid #8ca7d3;
+    line-height: 32px;
+    text-indent: 10px;
+    margin-bottom: 20px;
+}
+#order_list table tr:first-child{
+    background-color:#f0f0f0;
+    border-top: 1px solid #dee1e2;
+    text-align: left;
+    font-weight: bold;
+}
+#order_list table tr{
+    border-top:1px solid #fff;
+    border-bottom: 1px solid #dee1e2;
+}
+#order_list table tr:last-child{
+    
+}
+#order_list table tr td{
+    text-indent: 10px;
+    padding: 10px 0;
+}
+#order_list table tr:first-child td:first-child{
+    width: 100px;
+}
+#order_list table tr:first-child td:last-child{
+    text-align: center;
+}
+#order_list table tr:last-child{
+    border-bottom: 2px solid #dee1e2;
+}
+#order_list table tr td.total_price_ls{
+    width: 300px;
+}
+#order_list table tr td span a{
+    text-decoration: none;
+    color: #34495e;
+    padding: 10px 0;
+    width: 130px;
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}
+#order_list table tr td span a i{
+    margin-right:7px;
+}
+#order_list table tr td span a:hover{
+    background: #d7dceb;
+    border-radius: 5px;
+}

@@ -1,0 +1,358 @@
+#dashboard{
+	background: #f4f4f8;
+	width: 100%;
+	padding: 32px 0;
+	color:#34495e;
+	overflow: hidden;
+	height:auto;
+}
+#dashboard h2.title{
+	font-size: 24px;
+	color:#34495e;
+	margin:0 0 35px;
+}
+#dashboard  .status_general{
+	width: 1060px;
+	overflow: hidden;
+	padding:0;
+}
+#dashboard  .status_general li{
+	text-align:center;
+	font-size: 48px;
+	font-weight: bold;
+	width: 352px;
+	float:left;
+	list-style-type: none;
+}
+#dashboard  .status_general li+li span:last-child{
+	border-left: 1px solid #abb7d7;
+}
+#dashboard  .status_general li span{
+	display: table;
+	width: 100%;
+}
+#dashboard  .status_general li span.txt_top{
+	font-size: 14px;
+	border:0;
+}
+#dashboard  .status_general li span:last-child{
+	border-right: 1px solid #fff;
+	line-height: 75px;
+}
+#dashboard  .status_general li:last-child span:last-child{
+	border-right: 0;
+}
+/*++++++++++++++++++++++++++++++++*/
+#dashboard .statistics{
+	clear: both;
+	margin-top:90px;
+}
+#dashboard .statistics .exhibitor_status{
+	float:left;
+	width: 485px;
+	padding:0px 15px;
+	margin-right:30px;
+	background: #fff;
+	border:1px solid #dee1e2;
+}
+#dashboard .statistics .exhibitor_status p{
+	text-indent: 100px;
+}
+#dashboard .statistics .exhibitor_status p.title_big{
+	font-size: 14px;
+	border-bottom: 1px solid #dee1e2;
+	padding:30px 0px 20px;
+	font-weight: bold;
+}
+#dashboard .statistics .exhibitor_status p.title_big span:last-child{
+	font-size: 36px;
+}
+#dashboard .statistics .exhibitor_status table{
+	margin-left: 100px;
+}
+#dashboard .statistics .exhibitor_status table tr td{
+	padding:10px 0px 0px;
+}
+#dashboard .statistics .exhibitor_status table tr td:nth-child(1){
+	width: 100px;
+}
+#dashboard .statistics .speaker_status table tr td:nth-child(1){
+	width: 130px;
+}
+#dashboard .statistics .exhibitor_status table tr td:nth-child(3){
+	width: 100px;
+	text-align: center;
+}
+#dashboard .statistics .speaker_status table tr td:nth-child(3){
+	width: 130px;
+	text-align: center;
+}
+#dashboard .statistics .exhibitor_status p.title_big span:last-child{
+	margin-left: 30px;
+}
+#dashboard .statistics .speaker_status p.title_big span:last-child{
+	margin-left: 90px;
+}
+p.view_detail{
+	display: block !important;
+	width: 200px !important;
+	margin:50px auto 30px;!important;
+	line-height: 48px;
+	border-radius: 5px;
+	background: #3e6cbf;
+	color:#fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	padding:0px !important;
+	text-indent: 0 !important;
+}
+p.view_detail a{
+	text-decoration: none;
+	color:#fff;
+}
+p.view_detail:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+	cursor: pointer;
+}
+span.title_small{
+	width: 100px;
+}
+footer{
+	width: 1060px;
+	font-size:10px;
+	color:#abb7d7;
+	text-align: right;
+	position: relative;
+	bottom: 0px;
+	padding:20px 0;
+	clear:both;
+}
+/*========================= Login Page ===============================*/
+body.login div#login{
+	background: #FFF;
+    position: relative;
+    padding:20px 50px;
+    top: 20%;
+    margin: auto;
+    width: 300px;
+    border: 1px solid #dee1e2;
+}
+*::-moz-placeholder{
+	color:#dee1e2 !important;
+}
+*::-webkit-placeholder{
+	color:#dee1e2 !important;
+	font-size:14px;
+	font-weight:bold;
+}
+body.login div#login h1{
+	padding: 10px 0;
+}
+body.login div#login h1 a {
+    background-image: url("../images/logo_login.png");
+    background-size:100%;
+    height: 15px;
+    width: 300px;
+    margin: 0 auto;
+}
+body.login div#login form#loginform{
+	margin-top:0px;
+	width: 300px;
+	padding: 0;
+	box-shadow:none;
+}
+body.login div#login form#loginform p{
+	line-height: 1;
+}
+body.login div#login form#loginform p label{
+	color:#34495e;
+	font-size: 14px;
+	font-family: YuGothic;
+}
+body.login div#login form#loginform p label input{
+	font-size: 14px;
+	padding: 10px 7px;
+	/*margin: 5px 0 !important;*/
+	background: none;
+	font-weight: bold;
+	color:#34495e;
+}
+body.login div#login form#loginform p.forgetmenot{
+	float: none;
+	line-height: 1.5;
+	margin-top:10px;
+	font-family: YuGothic;
+	padding-top:2px;
+}
+body.login div#login form#loginform p.submit{
+	float: none;
+	text-align: center;
+	margin:30px 0 35px;
+}
+body.login div#login form#loginform p.submit input#wp-submit{
+	width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    background: #3e6cbf;
+    float: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    box-shadow: none;
+    font-family: YuGothic;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    transition: all 0.2s ease-out;
+}
+#loginform #user_login, #loginform #user_pass{
+	width:300px;
+	height:40px;
+	border:1px solid #dee1e2;
+	background:#fff;
+	box-shadow:none;
+	outline:none;
+	display:block;
+	float:none;
+	color:#34495e;
+	font-size:14px;
+}
+#loginform #user_login{
+	margin-top: -10px !important;
+}
+.login form .input, .login input[type="text"]{
+	margin:0 0 !important;
+}
+body.login div#login p#nav{
+	margin:0;
+	padding: 0;
+}
+body.login div#login p#nav a{
+    font-size: 14px;
+    color: #3e6cbf;
+    font-family: YuGothic;
+}
+p#backtoblog{display: none;}
+body.login div#login form#lostpasswordform{
+	margin: 20px 0;
+	padding:10px;
+}
+body.login div#login form#lostpasswordform p label input{
+	font-size: 14px;
+	padding:10px 7px;
+	margin:5px 0;
+	background: none;
+}
+body.login div#login form#lostpasswordform p.submit{
+	margin: 30px auto;
+}
+body.login div#login form#lostpasswordform p.submit input#wp-submit{
+	width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    background: #3e6cbf;
+    float: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    box-shadow: none;
+    font-family: YuGothic;
+}
+body.login div#login form#lostpasswordform p.submit input#wp-submit:hover{
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    transition: all 0.2s ease-out;
+}
+p.message{
+	margin-top:-25px;
+}
+/*.login #login_error, .login .message{
+	background:#e74c3c;
+	border-left:none;
+	padding:15px 0px !important;
+	width:300px;
+	margin:15px auto 0px !important;
+	box-shadow:none;
+}*/
+
+.login #login_error{
+	background-color:#e74c3c !important;
+	border-left:none !important;
+	padding:15px 0px !important;
+	width:300px;
+	margin:15px auto 10px !important;
+	box-shadow:none !important;
+}
+.login .message{
+	border-left:none !important;
+	/*padding:15px 0px !important;*/
+	padding: 15px 0px 0px 0px !important;
+	width:300px;
+	margin:15px auto 0px !important;
+	box-shadow:none !important;
+	color:#34495e;
+}
+.login-action-login .message{
+	display: none;
+}
+.login #login_error p{
+	text-align:center;
+	font-size:14px;
+	font-family:YuGothic;
+	font-weight:500px;
+	color:#fff;
+}
+.login-action-lostpassword div#login h1{
+	display: none;
+}
+.login-action-lostpassword #lostpasswordform{
+	box-shadow: none;
+}
+.login-action-lostpassword #lostpasswordform input#user_login{
+	box-shadow: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #dee1e2;
+}
+.login-action-lostpassword #lostpasswordform input#user_login:focus{
+	border-color:#dee1e2;
+	color:#34495e;
+}
+.login-action-lostpassword #lostpasswordform p label:before{
+	content: "ユーザー名もしくはメールアドレス";
+	color:#34495e;
+	font-size:14px;
+	font-family: YuGothic;
+}
+.login #resetpassform {
+    box-shadow: none !important;
+    margin-top: 0px;
+    padding: 10px;
+    color: #34495e;
+    font-size: 14px;
+}
+#resetpassform .user-pass1-wrap p label {
+    color: #34495e !important;
+    font-size: 14px !important;
+}
+.login #resetpassform p.submit #wp-submit {
+    float: none !important;
+    margin: 0 auto 20px !important;
+    display: block !important;
+    width: 200px;
+    height: 50px !important;
+    background: #3e6cbf !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    outline: none;
+    box-shadow: none !important;
+    font-family: YuGothic !important;
+}

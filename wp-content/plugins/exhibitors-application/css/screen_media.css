@@ -1,0 +1,332 @@
+@media screen, print{
+    #dashboard{
+        /*background: #f4f4f8;*/
+        width: 1000px;
+        padding: 0;
+        color: #34495e;
+        overflow: hidden;
+        height: auto;
+    }
+    .print_foundation .btn_print{
+        width: 290px;
+        line-height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        float: left;
+        border-radius: 5px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        color: #fff;
+        background: #3e6cbf;
+        border: 1px solid #3e6cbf;
+    }
+    .print_foundation .btn_print:hover{
+        background: #3e6cbf;
+        color: #fff;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+        transition: all 0.2s ease-out;
+        border: 1px solid #3e6cbf;
+    }
+    .print_foundation input[type=image]{
+        padding:0;
+        margin-bottom: 10px;
+    }
+    input[readonly]{
+        background:#fff;
+    }
+    .w115{
+        width:115px;
+    }
+    .w230{
+        width:230px;
+    }
+    /******** MENU-4 : INFORMATION *********/
+    .w440{
+        width: 440px;
+    }
+    .w315{
+        width: 315px;
+    }
+    .w95{
+        width: 95px;
+    }
+    .w112{
+        width: 112px;
+    }
+    .w215{
+        width: 215px;
+    }
+    .w55{
+        width: 55px;
+    }
+    .w228{
+        width:228px;
+    }
+    .w175{
+        width:175px;
+    }
+    .w465{
+        width: 465px;
+    }
+    .w95{
+        width: 95px;
+    }
+    .w115{
+        width: 115px;
+    }
+    .w155{
+        width: 155px;
+    }
+    .w180{
+        width: 180px;
+    }
+    .txt_red{
+        color:#e74c3c;
+    }
+    .red_txt{
+        color:#e74c3c;
+        font-size:12px;
+    }
+    #information h1{
+        font-size: 18px;
+        font-weight: bold;
+        color: #34495e;
+        background: #f0f0f0;
+        border-bottom: 8px solid #8ca7d3;
+        line-height: 32px;
+        text-indent: 10px;
+        margin-bottom: 20px;
+    }
+    #information form .info_company{
+        width: 100%;
+        overflow: hidden;
+        margin:0 auto 75px;
+    }
+    #information form .info_company .input_form{
+        display: table;
+        width: 100%;
+        max-width: 998px;
+        border-top:1px solid #dee1e2;
+        border-left:1px solid #dee1e2;
+        border-right:1px solid #dee1e2;
+        border-bottom:1px solid #fff;
+        overflow: hidden;
+    }
+    #information form .info_company .input_form:last-child{
+        border-bottom: 2px solid #dee1e2;
+    }
+    #information form .info_company .input_form label{
+        display: table-cell;
+        vertical-align: middle;
+        /*display: block;*/
+        min-width: 160px;
+        padding:20px 0px;
+        text-indent: 10px;
+        font-size: 14px;
+        background:#f5f6f6;
+        /*float:left;*/
+
+    }
+    #information form .info_company .input_form .input{
+        display: table-cell;
+        vertical-align: middle;
+        /*float:left;*/
+        width: 838px;
+        text-indent: 47px;
+    }
+    #information form .info_company .input_form .input input{
+        border:1px solid #dee1e2;
+        border-radius: 3px;
+        height:30px;
+        text-indent: 10px;
+        font-size: 15px;
+        box-shadow: none;
+    }
+    #information form .info_company .input_form .group_name span{
+        margin:0 15px;
+    }
+    #information form .info_company .input_form .group_name span:first-child{
+        margin-left: 0px;
+    }
+    /*#information form .info_company .input_form .input input:focus,#information form .input_form .input select:focus, #information form .input_form .input input:hover,#information form .input_form .input select:hover{
+        border:2px solid #3e6cbf;
+        background-color:#faffbd;
+        height:28px;
+    }*/
+    #information form .info_company .col4 .input1{
+        min-width: 240px;
+        width: 240px;
+    }
+    #information form .info_company .col4 .input2{
+        /*width: 295px;*/
+    }
+    #information form .info_company .input_form label.label2{
+        text-indent: 20px;
+    }
+    #information form .info_company .col4 .input2 select{
+        border:1px solid #dee1e2;
+        border-radius: 3px;
+        height:30px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background:url("images/icon_select.png") no-repeat 95% center;
+        text-indent:10px;
+    }
+    #information form .info_company .input_form span.note{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    /**  Foundation   **/
+    #confirm_foundation{
+        width: 100%;
+        max-width: 1000px;
+        color:#34495e;
+    }
+    #confirm_foundation .top_content h1{
+        line-height: 32px;
+        font-size: 18px;
+        color: #34495e;
+        text-indent: 15px;
+        background-color: #f0f0f0;
+        width: 100%;
+        max-width: 1000px;
+        border-bottom: 8px solid #8ca7d3;
+        margin-bottom: 20px;
+    }
+    #confirm_foundation .top_content h2{
+        margin: 0;
+        padding: 10px 0 16px 0;
+        font-size: 24px;
+        font-weight: bold;
+        color: #34495e;
+    }
+    #confirm_foundation .top_content p.top_confirm{
+        font-size: 14px;
+        line-height: 1.7;
+        color:#34495e;
+        margin: 0 0 10px 0;
+    }
+    #confirm_foundation form .block_content{
+        width: 100%;
+        overflow: hidden;
+        margin:0 auto 30px;
+    }
+    #confirm_foundation form .block_content .input_form{
+        display: table;
+        width: 100%;
+        max-width: 998px;
+        border-top:1px solid #dee1e2;
+        border-left:1px solid #dee1e2;
+        border-right:1px solid #dee1e2;
+        border-bottom:1px solid #fff;
+        overflow: hidden;
+    }
+    #confirm_foundation form .block_content .input_form:last-child{
+        border-bottom: 2px solid #dee1e2;
+    }
+    #confirm_foundation form .block_content .input_form label{
+        display: table-cell;
+        vertical-align: middle;
+        min-width: 150px;
+        padding:20px 0px 20px 10px;
+        /*text-indent: 10px;*/
+        font-size: 14px;
+        color:#34495e;
+        background:#f5f6f6;
+    }
+    #confirm_foundation form .label_w200 .input_form label{
+        width:200px;
+    }
+    #confirm_foundation form .label_w200 .input_form .input{
+        width:798px;
+    }
+    #confirm_foundation form .block_content .input_form .input{
+        display: table-cell;
+        vertical-align: middle;
+        /*float:left;*/
+        width: 838px;
+        text-indent: 47px;
+    }
+    #confirm_foundation form .block_content .input_form .input_collapse div{
+        display: table;
+        width: 100%;
+    }
+    #confirm_foundation form .block_content .input_form .input_collapse div p{
+        vertical-align: middle;
+        display: table-cell;
+    }
+    #confirm_foundation form .block_content .input_form .input_collapse div p:first-child{
+        width:283px;
+    }
+    #confirm_foundation form .block_content .input_form .input input{
+        border:1px solid #dee1e2;
+        border-radius: 3px;
+        height:30px;
+        text-indent: 10px;
+        font-size: 15px;
+    }
+    #confirm_foundation form .block_content .input_form .group_name span{
+        margin:0 15px;
+    }
+    #confirm_foundation form .block_content .input_form .group_name span:first-child{
+        margin-left: 0px;
+    }
+    #confirm_foundation form .block_content .input_form .input input:focus,
+    #confirm_foundation form .input_form .input select:focus, 
+    #confirm_foundation form .input_form .input input:hover,
+    #confirm_foundation form .input_form .input select:hover{
+        border:2px solid #3e6cbf;
+        background-color:#faffbd;
+        height:28px;
+    }
+    #confirm_foundation form .block_content .col4 .input1{
+        min-width: 240px;
+        width: 240px;
+    }
+    #confirm_foundation form .block_content .col4 .input2{
+       /* width: 295px;*/
+    }
+    #confirm_foundation form .block_content .input_form label.label2{
+        text-indent: 20px;
+    }
+    #confirm_foundation form .block_content .col4 .input2 select{
+        border:1px solid #dee1e2;
+        border-radius: 3px;
+        height:30px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background:url("images/icon_select.png") no-repeat 95% center;
+        text-indent:10px;
+    }
+    #confirm_foundation form .block_content .input_form span.note{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+}
+@media print{
+    #wpadminbar,#select_location_admin, #info_login_admin, #adminmenumain{
+        display: none;
+    }
+    #wpcontent, #wpfooter{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .print_foundation .btn_print{
+        display: none;
+    }
+    #information form .info_company .input_form,
+    #confirm_foundation form .block_content .input_form,
+    #confirm_foundation .top_content h1,
+    #confirm_foundation{
+        width: 850px;
+        margin:0 auto;
+    }
+    #information form .info_company .input_form label{
+        background:#ccc;
+    }
+}

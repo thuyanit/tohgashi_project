@@ -1,0 +1,81 @@
+/******** By ms.thuyanit@gmail.com  *****/
+#toplevel_page_exhibitor-list-admin{
+	margin-top:30px !important;
+}
+#toplevel_page_exhibitor-list-admin.wp-not-current-submenu .wp-menu-image:before{
+	content:url(icon/icon1.png);
+	margin-top:-3px;
+}
+#toplevel_page_exhibitor-list-admin.current .wp-menu-image:before{
+	content:url(icon/icon1-red.png);
+	margin-top:-3px;
+}
+
+#toplevel_page_setup-dealine.wp-not-current-submenu .wp-menu-image:before{
+	content: url(icon/icon2.png);
+	margin-top:-3px;
+}
+#toplevel_page_setup-dealine.current .wp-menu-image:before{
+	content: url(icon/icon2-red.png);
+	margin-top:-3px;
+}
+
+#toplevel_page_amenity-goods.wp-not-current-submenu .wp-menu-image:before{
+	content: url(icon/icon3.png);
+	margin-top:-3px;
+}
+#toplevel_page_amenity-goods.wp-has-current-submenu .wp-menu-image:before,
+#toplevel_page_amenity-goods.current .wp-menu-image:before{
+	content: url(icon/icon3-red.png);
+	margin-top:-3px;
+}
+
+#menu-posts-news.wp-not-current-submenu .wp-menu-image:before{
+	content: url(icon/icon4.png);
+	margin-top:-3px;
+}
+#menu-posts-news.current .wp-menu-image:before{
+	content: url(icon/icon4-red.png);
+	margin-top:-3px;
+}
+#menu-posts-news.wp-has-current-submenu .wp-menu-image:before{
+	content: url(icon/icon4-red.png);
+	margin-top:-3px;
+}
+#toplevel_page_speaker-all.wp-not-current-submenu .wp-menu-image:before{
+    content: url(icon/icon5.png);
+    margin-top:-3px;
+}
+#toplevel_page_speaker-all.wp-has-current-submenu .wp-menu-image:before{
+    content: url(icon/icon5-red.png);
+    margin-top:-3px;
+}
+
+/********* org  *********/
+/*#toplevel_page_application-all.wp-not-current-submenu .wp-menu-image:before{*/
+/*	content: url(icon/icon1.png);*/
+/*    margin-top:3px;*/
+/*}*/
+/*#toplevel_page_application-all.wp-has-current-submenu .wp-menu-image:before{*/
+/*	content: url(icon/icon1-red.png);*/
+/*    margin-top:3px;*/
+/*}*/
+
+/*#toplevel_page_exhibitor-list.wp-not-current-submenu .wp-menu-image:before{*/
+/*	content: url(icon/icon2.png);*/
+/*    margin-top:3px;*/
+/*}*/
+/*#toplevel_page_exhibitor-list.current .wp-menu-image:before{*/
+/*	content: url(icon/icon2-red.png);*/
+/*    margin-top:3px;*/
+/*}*/
+
+/*#toplevel_page_speaker-all.wp-not-current-submenu .wp-menu-image:before{*/
+/*	content: url(icon/icon3.png);*/
+/*    margin-top:3px;*/
+/*}*/
+/*#toplevel_page_speaker-all.current .wp-menu-image:before{*/
+/*	content: url(icon/icon3-red.png);*/
+/*    margin-top:3px;*/
+/*}*/
+
